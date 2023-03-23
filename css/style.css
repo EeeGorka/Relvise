@@ -863,9 +863,6 @@ body._lock {
           justify-content: space-between;
   padding: 1.875rem 2.5rem;
   opacity: 0;
-  -webkit-transform: translate(0, 50%);
-      -ms-transform: translate(0, 50%);
-          transform: translate(0, 50%);
   -webkit-transition: 0.5s ease 0.8s;
   -o-transition: 0.5s ease 0.8s;
   transition: 0.5s ease 0.8s;
@@ -1308,6 +1305,12 @@ body._lock {
     width: 100%;
     height: 4.8125rem;
     background-color: #252b42;
+  }
+
+  .subscribe__container {
+    -webkit-transform: translate(0, 50%);
+        -ms-transform: translate(0, 50%);
+            transform: translate(0, 50%);
   }
 
   .subscribe__container._anim {
@@ -1802,6 +1805,25 @@ body._lock {
   }
 }
 
+@media (max-width: 54.375em) {
+  .getintouch__items {
+    opacity: 0;
+    -webkit-transition: 0.5s ease 0.6s;
+    -o-transition: 0.5s ease 0.6s;
+    transition: 0.5s ease 0.6s;
+    -webkit-transform: translate(0, 50%);
+        -ms-transform: translate(0, 50%);
+            transform: translate(0, 50%);
+  }
+
+  .getintouch__items._anim {
+    opacity: 1;
+    -webkit-transform: translate(0, 0);
+        -ms-transform: translate(0, 0);
+            transform: translate(0, 0);
+  }
+}
+
 @media (max-width: 48.75em) {
   .we__body {
     -webkit-column-gap: 3.75rem;
@@ -1856,6 +1878,25 @@ body._lock {
 
   .main__bg {
     min-height: 30rem;
+  }
+}
+
+@media (max-width: 36.875em) {
+  .getintouch__items {
+    opacity: 0;
+    -webkit-transition: 0.5s ease 0.6s;
+    -o-transition: 0.5s ease 0.6s;
+    transition: 0.5s ease 0.6s;
+    -webkit-transform: translate(-10%, 0);
+        -ms-transform: translate(-10%, 0);
+            transform: translate(-10%, 0);
+  }
+
+  .getintouch__items._anim {
+    opacity: 1;
+    -webkit-transform: translate(0, 0);
+        -ms-transform: translate(0, 0);
+            transform: translate(0, 0);
   }
 }
 
@@ -1930,6 +1971,25 @@ body._lock {
 
   .menu-footer__link:hover {
     text-decoration: underline;
+  }
+}
+
+@media (max-height: 45em) {
+  .cards__container {
+    opacity: 0;
+    -webkit-transition: 0.5s ease 1s;
+    -o-transition: 0.5s ease 1s;
+    transition: 0.5s ease 1s;
+    -webkit-transform: translate(-10%, 0);
+        -ms-transform: translate(-10%, 0);
+            transform: translate(-10%, 0);
+  }
+
+  .cards__container._anim {
+    opacity: 1;
+    -webkit-transform: translate(0, 0);
+        -ms-transform: translate(0, 0);
+            transform: translate(0, 0);
   }
 }
 
