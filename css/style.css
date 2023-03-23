@@ -692,7 +692,7 @@ body._lock {
   transition: 0.5s ease 1.2s;
 }
 
-.we__vid > img {
+.we__vid img {
   width: 100%;
 }
 
